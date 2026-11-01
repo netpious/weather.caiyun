@@ -1,0 +1,281 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: weather.caiyun 1.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 00:00+0000\n"
+"PO-Revision-Date: 2026-11-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "#32000"
+msgid "彩云天气"
+msgstr ""
+
+msgctxt "#32001"
+msgid "城市"
+msgstr ""
+
+msgctxt "#32002"
+msgid "城市 1"
+msgstr ""
+
+msgctxt "#32003"
+msgid "点击后搜索城市，自动保存经纬度"
+msgstr ""
+
+msgctxt "#32004"
+msgid "城市 2"
+msgstr ""
+
+msgctxt "#32005"
+msgid "城市 3"
+msgstr ""
+
+msgctxt "#32006"
+msgid "显示与更新"
+msgstr ""
+
+msgctxt "#32007"
+msgid "更新间隔（分钟）"
+msgstr ""
+
+msgctxt "#32008"
+msgid "出现新预警时弹出通知"
+msgstr ""
+
+msgctxt "#32009"
+msgid "每日/每小时温度显示单位（°C）"
+msgstr ""
+
+msgctxt "#32010"
+msgid "启用云图（雷达回波）"
+msgstr ""
+
+msgctxt "#32011"
+msgid "云图显示城市周边（关闭则显示全国拼图）"
+msgstr ""
+
+msgctxt "#32013"
+msgid "调试日志"
+msgstr ""
+
+msgctxt "#32014"
+msgid "城市坐标（内部使用）"
+msgstr ""
+
+msgctxt "#32015"
+msgid "经度 1"
+msgstr ""
+
+msgctxt "#32016"
+msgid "纬度 1"
+msgstr ""
+
+msgctxt "#32017"
+msgid "经度 2"
+msgstr ""
+
+msgctxt "#32018"
+msgid "纬度 2"
+msgstr ""
+
+msgctxt "#32019"
+msgid "经度 3"
+msgstr ""
+
+msgctxt "#32020"
+msgid "纬度 3"
+msgstr ""
+
+msgctxt "#32021"
+msgid "天气预警"
+msgstr ""
+
+msgctxt "#32022"
+msgid "不校验 HTTPS 证书（网络异常时再开）"
+msgstr ""
+
+msgctxt "#32030"
+msgid "天气详情"
+msgstr ""
+
+msgctxt "#32031"
+msgid "云图"
+msgstr ""
+
+msgctxt "#32032"
+msgid "实况"
+msgstr ""
+
+msgctxt "#32033"
+msgid "未来 16 天"
+msgstr ""
+
+msgctxt "#32034"
+msgid "生活指数与预警"
+msgstr ""
+
+msgctxt "#32035"
+msgid "空气质量"
+msgstr ""
+
+msgctxt "#32036"
+msgid "分钟级降水"
+msgstr ""
+
+msgctxt "#32037"
+msgid "峰值"
+msgstr ""
+
+msgctxt "#32038"
+msgid "未来 2 小时"
+msgstr ""
+
+msgctxt "#32039"
+msgid "正在加载…"
+msgstr ""
+
+msgctxt "#32040"
+msgid "正在加载云图…"
+msgstr ""
+
+msgctxt "#32041"
+msgid "播放"
+msgstr ""
+
+msgctxt "#32042"
+msgid "暂停"
+msgstr ""
+
+msgctxt "#32043"
+msgid "实况"
+msgstr ""
+
+msgctxt "#32044"
+msgid "预报"
+msgstr ""
+
+msgctxt "#32045"
+msgid "图例"
+msgstr ""
+
+msgctxt "#32046"
+msgid "关闭"
+msgstr ""
+
+msgctxt "#32047"
+msgid "左右切换"
+msgstr ""
+
+msgctxt "#32048"
+msgid "搜索城市"
+msgstr ""
+
+msgctxt "#32049"
+msgid "输入城市名（中英文均可）"
+msgstr ""
+
+msgctxt "#32050"
+msgid "没有找到匹配的城市"
+msgstr ""
+
+msgctxt "#32051"
+msgid "网络错误，请稍后再试"
+msgstr ""
+
+msgctxt "#32052"
+msgid "当前"
+msgstr ""
+
+msgctxt "#32053"
+msgid "逐小时"
+msgstr ""
+
+msgctxt "#32054"
+msgid "已保存"
+msgstr ""
+
+msgctxt "#32055"
+msgid "当前没有气象预警"
+msgstr ""
+
+msgctxt "#32056"
+msgid "发布时间"
+msgstr ""
+
+msgctxt "#32057"
+msgid "发布单位"
+msgstr ""
+
+msgctxt "#32058"
+msgid "风力"
+msgstr ""
+
+msgctxt "#32059"
+msgid "能见度"
+msgstr ""
+
+msgctxt "#32060"
+msgid "云量"
+msgstr ""
+
+msgctxt "#32061"
+msgid "降水"
+msgstr ""
+
+msgctxt "#32062"
+msgid "雷达实况"
+msgstr ""
+
+msgctxt "#32063"
+msgid "雷达预报"
+msgstr ""
+
+msgctxt "#32064"
+msgid "还没有云图数据"
+msgstr ""
+
+msgctxt "#32065"
+msgid "窗口"
+msgstr ""
+
+msgctxt "#32070"
+msgid "第一个云图框"
+msgstr ""
+
+msgctxt "#32071"
+msgid "第二个云图框"
+msgstr ""
+
+msgctxt "#32072"
+msgid "不显示"
+msgstr ""
+
+msgctxt "#32073"
+msgid "实况降雨"
+msgstr ""
+
+msgctxt "#32074"
+msgid "两小时后降雨"
+msgstr ""
+
+msgctxt "#32075"
+msgid "动图降雨"
+msgstr ""
+
+msgctxt "#32076"
+msgid "实况空气"
+msgstr ""
+
+msgctxt "#32077"
+msgid "动图空气"
+msgstr ""
+
+msgctxt "#32082"
+msgid "云图图层"
+msgstr ""

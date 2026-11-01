@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+  <section id="weather.caiyun">
+    <category id="locations" label="32001">
+      <group id="1">
+        <setting id="location1" type="string" label="32002" help="32003">
+          <level>0</level>
+          <default>北京</default>
+          <constraints>
+            <allowempty>true</allowempty>
+          </constraints>
+          <control type="button" format="action">
+            <data>RunScript(weather.caiyun,location1)</data>
+          </control>
+        </setting>
+        <setting id="location2" type="string" label="32004" help="32003">
+          <level>0</level>
+          <default/>
+          <constraints>
+            <allowempty>true</allowempty>
+          </constraints>
+          <control type="button" format="action">
+            <data>RunScript(weather.caiyun,location2)</data>
+          </control>
+          <dependencies>
+            <dependency type="enable" operator="!is" setting="location1" />
+          </dependencies>
+        </setting>
+        <setting id="location3" type="string" label="32005" help="32003">
+          <level>0</level>
+          <default/>
+          <constraints>
+            <allowempty>true</allowempty>
+          </constraints>
+          <control type="button" format="action">
+            <data>RunScript(weather.caiyun,location3)</data>
+          </control>
+          <dependencies>
+            <dependency type="enable" operator="!is" setting="location2" />
+          </dependencies>
+        </setting>
+      </group>
+    </category>
+
+    <category id="display" label="32006">
+      <group id="1">
+        <setting id="update_interval" type="integer" label="32007">
+          <level>1</level>
+          <default>30</default>
+          <constraints>
+            <minimum>10</minimum>
+            <maximum>180</maximum>
+            <step>5</step>
+          </constraints>
+          <control type="slider" format="integer" />
+        </setting>
+        <setting id="units_mode" type="boolean" label="32009">
+          <level>1</level>
+          <default>true</default>
+          <control type="toggle" />
+        </setting>
+        <setting id="notify_alarm" type="boolean" label="32008">
+          <level>1</level>
+          <default>true</default>
+          <control type="toggle" />
+        </setting>
+        <setting id="radar_enabled" type="boolean" label="32010">
+          <level>1</level>
+          <default>true</default>
+          <control type="toggle" />
+        </setting>
+        <setting id="radar_local" type="boolean" label="32011">
+          <level>1</level>
+          <default>true</default>
+          <control type="toggle" />
+          <dependencies>
+            <dependency type="enable" setting="radar_enabled" value="true" />
+          </dependencies>
+        </setting>
+        <setting id="insecure_ssl" type="boolean" label="32022">
+          <level>2</level>
+          <default>false</default>
+          <control type="toggle" />
+        </setting>
+        <setting id="debug_log" type="boolean" label="32013">
+          <level>2</level>
+          <default>false</default>
+          <control type="toggle" />
+        </setting>
+      </group>
+    </category>
+
+    <!-- 云图：两个方框各放什么图层 -->
+    <category id="maps" label="32082">
+      <group id="1">
+        <setting id="map_slot1" type="integer" label="32070">
+          <level>0</level>
+          <default>1</default>
+          <constraints>
+            <options>
+              <option label="32072">0</option>
+              <option label="32073">1</option>
+              <option label="32074">2</option>
+              <option label="32075">3</option>
+              <option label="32076">4</option>
+              <option label="32077">5</option>
+            </options>
+          </constraints>
+          <control type="spinner" format="string" />
+        </setting>
+        <setting id="map_slot2" type="integer" label="32071">
+          <level>0</level>
+          <default>2</default>
+          <constraints>
+            <options>
+              <option label="32072">0</option>
+              <option label="32073">1</option>
+              <option label="32074">2</option>
+              <option label="32075">3</option>
+              <option label="32076">4</option>
+              <option label="32077">5</option>
+            </options>
+          </constraints>
+          <control type="spinner" format="string" />
+        </setting>
+      </group>
+    </category>
+
+    <!-- 窗口入口：Kodi 没给天气插件留启动按钮，只能从设置里进 -->
+    <category id="windows" label="32065">
+      <group id="1">
+        <setting id="open_detail" type="action" label="32030">
+          <level>0</level>
+          <control type="button" format="action">
+            <data>RunScript(weather.caiyun,detail)</data>
+          </control>
+        </setting>
+        <setting id="open_radar" type="action" label="32031">
+          <level>0</level>
+          <control type="button" format="action">
+            <data>RunScript(weather.caiyun,radar)</data>
+          </control>
+        </setting>
+      </group>
+    </category>
+
+    <!-- 隐藏项：由城市选择器写入，不直接暴露给用户 -->
+    <category id="hidden" label="32014">
+      <group id="1">
+        <setting id="lon1" type="string" label="32015">
+          <level>3</level>
+          <default>116.407400</default>
+          <constraints><allowempty>true</allowempty></constraints>
+          <control type="edit" format="string" />
+        </setting>
+        <setting id="lat1" type="string" label="32016">
+          <level>3</level>
+          <default>39.904200</default>
+          <constraints><allowempty>true</allowempty></constraints>
+          <control type="edit" format="string" />
+        </setting>
+        <setting id="lon2" type="string" label="32017">
+          <level>3</level>
+          <default/>
+          <constraints><allowempty>true</allowempty></constraints>
+          <control type="edit" format="string" />
+        </setting>
+        <setting id="lat2" type="string" label="32018">
+          <level>3</level>
+          <default/>
+          <constraints><allowempty>true</allowempty></constraints>
+          <control type="edit" format="string" />
+        </setting>
+        <setting id="lon3" type="string" label="32019">
+          <level>3</level>
+          <default/>
+          <constraints><allowempty>true</allowempty></constraints>
+          <control type="edit" format="string" />
+        </setting>
+        <setting id="lat3" type="string" label="32020">
+          <level>3</level>
+          <default/>
+          <constraints><allowempty>true</allowempty></constraints>
+          <control type="edit" format="string" />
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>

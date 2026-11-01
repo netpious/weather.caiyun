@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog" id="1201">
+	<coordinates>
+		<system>1</system>
+		<posx>0</posx>
+		<posy>0</posy>
+	</coordinates>
+	<controls>
+		<control type="image" id="1">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<texture background="true">media/bg.png</texture>
+		</control>
+
+		<control type="label" id="3">
+			<left>240</left>
+			<top>60</top>
+			<width>1200</width>
+			<height>70</height>
+			<font>font27</font>
+			<textcolor>FFFFFFFF</textcolor>
+			<label></label>
+		</control>
+		<control type="label" id="4">
+			<left>240</left>
+			<top>130</top>
+			<width>1440</width>
+			<height>44</height>
+			<font>font12</font>
+			<textcolor>FF9E9E9E</textcolor>
+			<label></label>
+		</control>
+
+		<control type="list" id="2000">
+			<left>200</left>
+			<top>200</top>
+			<width>1520</width>
+			<height>800</height>
+			<onleft>61</onleft>
+			<onright>61</onright>
+			<pagecontrol>61</pagecontrol>
+			<scrolltime>200</scrolltime>
+			<itemlayout height="66">
+				<control type="image">
+					<left>0</left>
+					<top>5</top>
+					<width>56</width>
+					<height>56</height>
+					<aspectratio>keep</aspectratio>
+					<texture>$INFO[ListItem.Icon]</texture>
+				</control>
+				<control type="label">
+					<left>70</left>
+					<top>0</top>
+					<width>400</width>
+					<height>66</height>
+					<font>font14</font>
+					<textcolor>FFE0E0E0</textcolor>
+					<label>$INFO[ListItem.Label]</label>
+				</control>
+				<control type="label">
+					<left>480</left>
+					<top>0</top>
+					<width>1020</width>
+					<height>66</height>
+					<font>font14</font>
+					<textcolor>FFFFFFFF</textcolor>
+					<label>$INFO[ListItem.Label2]</label>
+				</control>
+			</itemlayout>
+			<focusedlayout height="66">
+				<control type="image">
+					<left>0</left>
+					<top>5</top>
+					<width>56</width>
+					<height>56</height>
+					<aspectratio>keep</aspectratio>
+					<texture>$INFO[ListItem.Icon]</texture>
+				</control>
+				<control type="label">
+					<left>70</left>
+					<top>0</top>
+					<width>400</width>
+					<height>66</height>
+					<font>font14</font>
+					<textcolor>FFFFD54F</textcolor>
+					<label>$INFO[ListItem.Label]</label>
+				</control>
+				<control type="label">
+					<left>480</left>
+					<top>0</top>
+					<width>1020</width>
+					<height>66</height>
+					<font>font14</font>
+					<textcolor>FFFFD54F</textcolor>
+					<label>$INFO[ListItem.Label2]</label>
+				</control>
+			</focusedlayout>
+		</control>
+
+		<control type="scrollbar" id="61">
+			<left>1740</left>
+			<top>200</top>
+			<width>20</width>
+			<height>800</height>
+		</control>
+
+		<control type="label" id="7">
+			<left>240</left>
+			<top>1010</top>
+			<width>1440</width>
+			<height>40</height>
+			<font>font12</font>
+			<textcolor>FF9E9E9E</textcolor>
+			<label>[B]左/右[/B] 切换页面    [B]BACK[/B] 关闭</label>
+		</control>
+	</controls>
+</window>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog" id="1200">
+	<coordinates>
+		<system>1</system>
+		<posx>0</posx>
+		<posy>0</posy>
+	</coordinates>
+	<controls>
+		<control type="image" id="1">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<texture background="true">media/bg.png</texture>
+		</control>
+
+		<!-- 底图与雷达层必须用完全相同的矩形和 stretch，叠加才对得上 -->
+		<control type="image" id="10">
+			<left>100</left>
+			<top>96</top>
+			<width>900</width>
+			<height>860</height>
+			<aspectratio>stretch</aspectratio>
+			<colordiffuse>FF9A9A9A</colordiffuse>
+		</control>
+		<control type="image" id="11">
+			<left>100</left>
+			<top>96</top>
+			<width>900</width>
+			<height>860</height>
+			<aspectratio>stretch</aspectratio>
+		</control>
+
+		<control type="label" id="12">
+			<left>100</left>
+			<top>24</top>
+			<width>900</width>
+			<height>56</height>
+			<font>font30_title</font>
+			<textcolor>FFFFFFFF</textcolor>
+			<label></label>
+		</control>
+		<control type="label" id="13">
+			<left>1120</left>
+			<top>24</top>
+			<width>700</width>
+			<height>56</height>
+			<font>font30_title</font>
+			<align>right</align>
+			<textcolor>FFFFD54F</textcolor>
+			<label></label>
+		</control>
+
+		<!-- 右侧信息栏：直接读天气窗口里已经取好的属性，不额外联网 -->
+		<control type="label" id="20">
+			<left>1080</left>
+			<top>120</top>
+			<width>740</width>
+			<height>60</height>
+			<font>font27</font>
+			<textcolor>FFFFFFFF</textcolor>
+			<label></label>
+		</control>
+		<control type="label" id="21">
+			<left>1080</left>
+			<top>184</top>
+			<width>740</width>
+			<height>120</height>
+			<font>font45</font>
+			<textcolor>FFFFFFFF</textcolor>
+			<label></label>
+		</control>
+		<control type="label" id="22">
+			<left>1080</left>
+			<top>310</top>
+			<width>740</width>
+			<height>50</height>
+			<font>font14</font>
+			<textcolor>FFC8CDD6</textcolor>
+			<label></label>
+		</control>
+		<control type="label" id="23">
+			<left>1080</left>
+			<top>368</top>
+			<width>740</width>
+			<height>120</height>
+			<font>font14</font>
+			<textcolor>FFFFD54F</textcolor>
+			<label></label>
+		</control>
+		<control type="label" id="24">
+			<left>1080</left>
+			<top>500</top>
+			<width>740</width>
+			<height>200</height>
+			<font>font14</font>
+			<textcolor>FFC8CDD6</textcolor>
+			<label></label>
+		</control>
+
+		<control type="image" id="14">
+			<left>1080</left>
+			<top>740</top>
+			<width>520</width>
+			<height>60</height>
+			<aspectratio>keep</aspectratio>
+		</control>
+
+		<control type="label" id="15">
+			<left>100</left>
+			<top>1006</top>
+			<width>760</width>
+			<height>44</height>
+			<font>font12</font>
+			<textcolor>FFBDBDBD</textcolor>
+			<label>[B]OK[/B] 播放/暂停   [B]左/右[/B] 单帧    [B]BACK[/B] 关闭</label>
+		</control>
+
+		<control type="label" id="16">
+			<left>1000</left>
+			<top>1006</top>
+			<width>820</width>
+			<height>44</height>
+			<font>font12</font>
+			<align>right</align>
+			<textcolor>FFFFFFFF</textcolor>
+			<label></label>
+		</control>
+	</controls>
+</window>
