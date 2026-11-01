@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="weather.caiyun" name="彩云天气" version="1.3.0" provider-name="netpious, dsh">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.weather" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="zh_CN">彩云天气：分钟级降水、16 天预报、雷达与空气质量云图、六格生活指数</summary>
+		<summary lang="en_GB">Caiyun Weather: minute-level rain, 16-day forecast, radar and air-quality maps, six life indices</summary>
+		<description lang="zh_CN">数据全部来自彩云天气（caiyunapp.com）。提供实况、未来两小时分钟级降水、120 小时与 16 天预报、气象预警、空气质量、六格生活指数（运动/限号/紫外线/穿衣/感冒/旅游），以及带高德底图的云图：降雨实况、降雨预报、降雨动图、空气质量实况与动图，可按设置里的两个方框自由组合。</description>
+		<description lang="en_GB">Weather data from Caiyun (caiyunapp.com): current conditions, two-hour nowcast, 120-hour and 16-day forecasts, alerts, air quality, six life indices, and map pages (rain radar, rain forecast, rain animation, air quality now and as an animation) that you can pick for the two weather-page slots.</description>
+		<disclaimer lang="zh_CN">数据版权归彩云天气所有，本插件仅供个人非商业使用</disclaimer>
+		<disclaimer lang="en_GB">Weather data is copyright Caiyun. This add-on is for personal, non-commercial use.</disclaimer>
+		<platform>all</platform>
+		<license>MIT</license>
+		<website>https://h5.caiyunapp.com/h5</website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<banner>resources/logo.png</banner>
+		</assets>
+	</extension>
+</addon>
